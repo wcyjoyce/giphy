@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "babel-package-manager": "^1.0.11",
+    "giphy-api": "^2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
   },
