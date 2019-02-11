@@ -9,7 +9,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedGifId: "1ylQIC6BNa9uWytUFr",
+      selectedGifId: null, // "1ylQIC6BNa9uWytUFr"
       gifs: []
     }
   }
@@ -27,6 +27,13 @@ class App extends Component {
     });
   }
 
+  // Select GIF
+  selectGif = (id) => {
+    this.setState({
+      selectedGifId: id
+    });
+  }
+
   render() {
     return (
       <div>
@@ -37,7 +44,7 @@ class App extends Component {
           </div>
         </div>
         <div className="right-scene">
-          <List gifs={this.state.gifs} />
+          <List gifs={this.state.gifs} selectGif={this.selectGif} />
         </div>
       </div>
     );
