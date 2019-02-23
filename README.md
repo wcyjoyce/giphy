@@ -1,30 +1,10 @@
-# react-boilerplate
+# Giphy with React
 
-Simple react starter with the following config:
+This is a simple GIPHY search app that I created with React as part of [Le Wagon's](http://www.lewagon.com) React and Redux course. Supported by [GIPHY's API](https://developers.giphy.com/), users can instantly search for GIFs in this app. 
 
-- React, ReactDOM
-- Webpack 4
-- Babel with es2015 and react presets
-- Bootstrap (css only, loaded from a cdn in `index.html`)
-- work with `.js` or `.jsx` files
-- main `application.scss` stylesheet is imported in `index.js` as a module to enjoy hot reloading
+This is my first React App! :trollface:
 
-## Scripts
+## GIF 
+**gif** \ˈgif ˈjif _n._ – **1.** a computer file format for the compression and storage of visual digital information; **2.** _also:_ an image or video stored in this format; **3.** using emoji, emoticons and GIFs in a texted conversation instantly signals the difference between sincerity and a joke or sarcasm.
 
-To start the local Webpack Dev Server (usually on port `8080`):
-
-```bash
-yarn start
-```
-
-To lint all JavaScript files in the `src` folder:
-
-```bash
-yarn lint
-```
-
-To build and deploy your app to `gh-pages` branch on the GitHub repo:
-
-```bash
-yarn deploy
-```
+![GIF](https://raw.githubusercontent.com/lewagon/react-redux-images/master/react/homer_thinking.png)
